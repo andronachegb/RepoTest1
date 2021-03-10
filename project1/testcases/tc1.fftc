@@ -7,7 +7,7 @@
     <procedures>
         <item name="main">
             <steps>
-                <item guid="af434d81-b115-4006-b38f-20acfc00a0e4" action="open" session="s1">
+                <item guid="af434d81-b115-4006-b38f-20acfc00a0e4" action="open" session="s1" skip="true">
                     <command>
                         <body>project://RepoTest1/session_profiles/REST.ffsp</body>
                     </command>
@@ -18,10 +18,56 @@
                         <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     </applicationProperties>
                 </item>
-                <item guid="9f78661d-3541-441c-bcf7-b6d562a0b570" action="proc1" session="s1" useFieldsInCommand="false">
+                <item guid="9f78661d-3541-441c-bcf7-b6d562a0b570" action="proc1" session="s1" skip="true" useFieldsInCommand="false">
                     <command>
                         <body>-argm testing</body>
                     </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="fe6087ad-55e6-4872-9ab7-418090ff8347" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>val = param(&apos;projName&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="17713846-4a9d-4ab0-96af-cf668500a11b" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(val)</body>
+                    </command>
+                    <postProcessing>
+                        <analysisRules>
+                            <item>
+                                <extractorInfo extractorType="none">
+                                    <extractorProperties type="com.fnfr.svt.documents.EmptyExtractorPropertyGroup"/>
+                                </extractorInfo>
+                                <processorInfo ruleType="assert">
+                                    <ruleProperties type="com.fnfr.svt.execution.builtin.processors.AssertionPropertyGroup">
+                                        <expression>1 == 1</expression>
+                                        <actionsWhenTrue>
+                                            <item actionId="DeclareExecutionIssue">
+                                                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup" severity="OK">
+                                                    <message>[val]</message>
+                                                </actionProperties>
+                                            </item>
+                                            <item actionId="PassTestIfNotAlreadyFailed">
+                                                <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                            </item>
+                                        </actionsWhenTrue>
+                                        <actionsWhenFalse>
+                                            <item actionId="DeclareExecutionIssue">
+                                                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
+                                                    <message>{auto_message_false}</message>
+                                                </actionProperties>
+                                            </item>
+                                            <item actionId="FailTest">
+                                                <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                            </item>
+                                        </actionsWhenFalse>
+                                    </ruleProperties>
+                                </processorInfo>
+                            </item>
+                        </analysisRules>
+                    </postProcessing>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
             </steps>
