@@ -2,44 +2,54 @@
 <inventory format-version="1.0">
 	<templates>
 		<template>
-			<id>5ef59313-8148-437e-a7e5-aeceb07ad4bc</id>
-			<revisionId>5ef59313-8148-437e-a7e5-aeceb07ad4bc</revisionId>
-			<name>T Port</name>
+			<id>a5266606-f35b-482b-8c3f-a4317c1ccbb9</id>
+			<revisionId>a5266606-f35b-482b-8c3f-a4317c1ccbb9</revisionId>
+			<name>Network Port</name>
 			<description></description>
 			<isTemplate>true</isTemplate>
 			<type>PORT</type>
 			<interfaceType>NONE</interfaceType>
-			<utilizationType>SHARED</utilizationType>
+			<utilizationType>EXCLUSIVE</utilizationType>
 			<reservationTime>IMMEDIATE</reservationTime>
 			<isCustomReservationTime>false</isCustomReservationTime>
 			<properties>
 				<property>
-					<name>prop1</name>
-					<description></description>
+					<name>portNumber</name>
+					<description>System port number. Example: 1.1.1</description>
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
-					<value>123</value>
-					<required>false</required>
-					<group>088c545f-4b5a-4465-97af-25866ab85cac</group>
+					<required>true</required>
+					<group>f2844d19-6224-4e06-a5fd-f156ae7e3d36</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
 				<property>
-					<name>prop2</name>
-					<description></description>
+					<name>Port Type</name>
+					<description>Example: Ethernet, Fast Ethernet, Copper..., etc</description>
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
-					<value>abc</value>
+					<value>Ethernet</value>
 					<required>false</required>
-					<group>088c545f-4b5a-4465-97af-25866ab85cac</group>
+					<group>f2844d19-6224-4e06-a5fd-f156ae7e3d36</group>
 					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Port Speed</name>
+					<description>Unit of Measure:  Mbps</description>
+					<datatype>INTEGER</datatype>
+					<widgetType>INTEGER_FIELD</widgetType>
+					<value>1000</value>
+					<required>false</required>
+					<group>f2844d19-6224-4e06-a5fd-f156ae7e3d36</group>
+					<seqNo>4</seqNo>
 					<encrypted>false</encrypted>
 				</property>
 			</properties>
 			<propertyGroups>
 				<propertyGroup>
-					<id>088c545f-4b5a-4465-97af-25866ab85cac</id>
-					<name>PG</name>
+					<id>f2844d19-6224-4e06-a5fd-f156ae7e3d36</id>
+					<name>System Identification</name>
 					<seqNo>1</seqNo>
 					<isHidden>false</isHidden>
 				</propertyGroup>
@@ -62,6 +72,13 @@
 			<resourceGroup>
 				<name></name>
 			</resourceGroup>
+			<icon>
+				<attachment>
+					<id>a793288c-2381-45ad-b954-aabc375782b7</id>
+					<name>920x920.jpg</name>
+					<contentType>image/jpeg</contentType>
+				</attachment>
+			</icon>
 			<nestedResources>
 				<orchestratedResource>
 					<id>7555694b-e37a-491c-a85a-9945430900ca</id>
@@ -74,6 +91,13 @@
 					<resourceGroup>
 						<name>RG1</name>
 					</resourceGroup>
+					<icon>
+						<attachment>
+							<id>a793288c-2381-45ad-b954-aabc375782b7</id>
+							<name>920x920.jpg</name>
+							<contentType>image/jpeg</contentType>
+						</attachment>
+					</icon>
 					<nestedResources>
 						<orchestratedResource>
 							<id>4a45a8a6-447e-468b-bf31-3bcc06afb9ad</id>
@@ -86,6 +110,13 @@
 							<resourceGroup>
 								<name>RG1</name>
 							</resourceGroup>
+							<icon>
+								<attachment>
+									<id>a793288c-2381-45ad-b954-aabc375782b7</id>
+									<name>920x920.jpg</name>
+									<contentType>image/jpeg</contentType>
+								</attachment>
+							</icon>
 							<nestedResources>
 								<orchestratedResource>
 									<id>57137ca9-8542-4894-b850-712288f977f5</id>
@@ -170,4 +201,64 @@
 			</nestedResources>
 		</orchestratedResource>
 	</orchestratedResources>
+	<abstractResources>
+		<abstractResource>
+			<id>11f617ee-3743-419d-809e-7b0cca873d19</id>
+			<type>DEVICE</type>
+			<name>Abs1</name>
+			<description></description>
+			<condition>template[T1]</condition>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isPublic>true</isPublic>
+			<icon/>
+			<nestedResources>
+				<abstractResource>
+					<id>6822ee0c-5308-45c3-b687-a12f8f613b08</id>
+					<type>DEVICE</type>
+					<name>Abs2</name>
+					<description></description>
+					<condition>template[T2]</condition>
+					<reservationTime>IMMEDIATE</reservationTime>
+					<isPublic>true</isPublic>
+					<referencedTemplateId>7c7197dc-8cff-4267-b97e-62fda6d9330c</referencedTemplateId>
+					<icon>
+						<attachment>
+							<id>a793288c-2381-45ad-b954-aabc375782b7</id>
+							<name>920x920.jpg</name>
+							<contentType>image/jpeg</contentType>
+						</attachment>
+					</icon>
+					<nestedResources>
+						<abstractResource>
+							<id>c5ff400f-5f04-4d55-af26-d6f2bf1ab28d</id>
+							<type>DEVICE</type>
+							<name>Abs3</name>
+							<description></description>
+							<condition>template[T3]</condition>
+							<reservationTime>IMMEDIATE</reservationTime>
+							<isPublic>true</isPublic>
+							<referencedTemplateId>6ac58bb7-b61b-45c0-a8fc-3f2483f557ae</referencedTemplateId>
+							<icon>
+								<attachment>
+									<id>a793288c-2381-45ad-b954-aabc375782b7</id>
+									<name>920x920.jpg</name>
+									<contentType>image/jpeg</contentType>
+								</attachment>
+							</icon>
+						</abstractResource>
+					</nestedResources>
+				</abstractResource>
+			</nestedResources>
+		</abstractResource>
+	</abstractResources>
+	<topologies>
+		<topology>
+			<name>Export</name>
+			<attachment>
+				<id>281d90a5-81c2-4b7d-938f-d6089ac61a00</id>
+				<name>Export</name>
+				<contentType>application/xml</contentType>
+			</attachment>
+		</topology>
+	</topologies>
 </inventory>
