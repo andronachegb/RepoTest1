@@ -1,6 +1,53 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <inventory format-version="1.0">
 	<templates>
+		<template>
+			<id>5ef59313-8148-437e-a7e5-aeceb07ad4bc</id>
+			<revisionId>5ef59313-8148-437e-a7e5-aeceb07ad4bc</revisionId>
+			<name>T Port</name>
+			<description></description>
+			<isTemplate>true</isTemplate>
+			<type>PORT</type>
+			<interfaceType>NONE</interfaceType>
+			<utilizationType>SHARED</utilizationType>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isCustomReservationTime>false</isCustomReservationTime>
+			<properties>
+				<property>
+					<name>prop1</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<value>123</value>
+					<required>false</required>
+					<group>088c545f-4b5a-4465-97af-25866ab85cac</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>prop2</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<value>abc</value>
+					<required>false</required>
+					<group>088c545f-4b5a-4465-97af-25866ab85cac</group>
+					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>088c545f-4b5a-4465-97af-25866ab85cac</id>
+					<name>PG</name>
+					<seqNo>1</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+			<icon/>
+			<defaultImageAttach/>
+			<defaultConfigAttach/>
+		</template>
 	</templates>
 	<orchestratedResources>
 		<orchestratedResource>
@@ -16,6 +63,11 @@
 				<name></name>
 			</resourceGroup>
 			<icon>
+				<attachment>
+					<id>a793288c-2381-45ad-b954-aabc375782b7</id>
+					<name>920x920.jpg</name>
+					<contentType>image/jpeg</contentType>
+				</attachment>
 			</icon>
 			<nestedResources>
 				<orchestratedResource>
@@ -36,6 +88,76 @@
 							<contentType>image/jpeg</contentType>
 						</attachment>
 					</icon>
+					<nestedResources>
+						<orchestratedResource>
+							<id>4a45a8a6-447e-468b-bf31-3bcc06afb9ad</id>
+							<type>DEVICE</type>
+							<name>Orch3</name>
+							<description></description>
+							<role>S2_ORCHESTRATED</role>
+							<referencedTemplateId>6ac58bb7-b61b-45c0-a8fc-3f2483f557ae</referencedTemplateId>
+							<visibility>PUBLIC</visibility>
+							<resourceGroup>
+								<name>RG1</name>
+							</resourceGroup>
+							<icon>
+								<attachment>
+									<id>a793288c-2381-45ad-b954-aabc375782b7</id>
+									<name>920x920.jpg</name>
+									<contentType>image/jpeg</contentType>
+								</attachment>
+							</icon>
+							<nestedResources>
+								<orchestratedResource>
+									<id>57137ca9-8542-4894-b850-712288f977f5</id>
+									<type>PORT</type>
+									<name>P1</name>
+									<description></description>
+									<role>S2_ORCHESTRATED</role>
+									<visibility>PUBLIC</visibility>
+									<resourceGroup>
+										<name></name>
+									</resourceGroup>
+									<icon/>
+								</orchestratedResource>
+								<orchestratedResource>
+									<id>83599f12-951f-4116-b55c-39974cc03f28</id>
+									<type>PORT</type>
+									<name>P2</name>
+									<description></description>
+									<role>S2_ORCHESTRATED</role>
+									<visibility>PUBLIC</visibility>
+									<resourceGroup>
+										<name></name>
+									</resourceGroup>
+									<icon/>
+								</orchestratedResource>
+							</nestedResources>
+						</orchestratedResource>
+						<orchestratedResource>
+							<id>c42945c6-3d22-434e-8425-45667e7cc889</id>
+							<type>PORT</type>
+							<name>P1</name>
+							<description></description>
+							<role>S2_ORCHESTRATED</role>
+							<visibility>PUBLIC</visibility>
+							<resourceGroup>
+								<name></name>
+							</resourceGroup>
+							<icon/>
+						</orchestratedResource>
+						<orchestratedResource>
+							<id>df08c55c-e441-496e-bbea-e3fb4e77b3de</id>
+							<type>PORT</type>
+							<name>P2</name>
+							<description></description>
+							<role>S2_ORCHESTRATED</role>
+							<visibility>PUBLIC</visibility>
+							<resourceGroup>
+								<name></name>
+							</resourceGroup>
+							<icon/>
+						</orchestratedResource>
 					</nestedResources>
 				</orchestratedResource>
 				<orchestratedResource>
@@ -69,8 +191,4 @@
 			</nestedResources>
 		</orchestratedResource>
 	</orchestratedResources>
-	<abstractResources>
-	</abstractResources>
-	<topologies>
-	</topologies>
 </inventory>
