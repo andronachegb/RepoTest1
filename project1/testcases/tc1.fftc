@@ -24,7 +24,7 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="fe6087ad-55e6-4872-9ab7-418090ff8347" action="eval" useFieldsInCommand="false">
+                <item guid="fe6087ad-55e6-4872-9ab7-418090ff8347" action="eval" skip="true" useFieldsInCommand="false">
                     <command>
                         <body>val = param(&apos;projName&apos;)</body>
                     </command>
