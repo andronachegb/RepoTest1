@@ -7,7 +7,7 @@
     <procedures>
         <item name="main">
             <steps>
-                <item guid="af434d81-b115-4006-b38f-20acfc00a0e4" action="open" session="s1" skip="true">
+                <item guid="af434d81-b115-4006-b38f-20acfc00a0e4" action="open" session="s1">
                     <command>
                         <body>project://RepoTest1/session_profiles/REST.ffsp</body>
                     </command>
@@ -18,13 +18,13 @@
                         <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     </applicationProperties>
                 </item>
-                <item guid="9f78661d-3541-441c-bcf7-b6d562a0b570" action="proc1" session="s1" skip="true" useFieldsInCommand="false">
+                <item guid="9f78661d-3541-441c-bcf7-b6d562a0b570" action="proc1" session="s1" useFieldsInCommand="false">
                     <command>
                         <body>-argm testing</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="fe6087ad-55e6-4872-9ab7-418090ff8347" action="eval" skip="true" useFieldsInCommand="false">
+                <item guid="fe6087ad-55e6-4872-9ab7-418090ff8347" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>val = param(&apos;projName&apos;)</body>
                     </command>
