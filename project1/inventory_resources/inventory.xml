@@ -62,13 +62,6 @@
 			<resourceGroup>
 				<name></name>
 			</resourceGroup>
-			<icon>
-				<attachment>
-					<id>a793288c-2381-45ad-b954-aabc375782b7</id>
-					<name>920x920.jpg</name>
-					<contentType>image/jpeg</contentType>
-				</attachment>
-			</icon>
 			<nestedResources>
 				<orchestratedResource>
 					<id>7555694b-e37a-491c-a85a-9945430900ca</id>
@@ -81,13 +74,6 @@
 					<resourceGroup>
 						<name>RG1</name>
 					</resourceGroup>
-					<icon>
-						<attachment>
-							<id>a793288c-2381-45ad-b954-aabc375782b7</id>
-							<name>920x920.jpg</name>
-							<contentType>image/jpeg</contentType>
-						</attachment>
-					</icon>
 					<nestedResources>
 						<orchestratedResource>
 							<id>4a45a8a6-447e-468b-bf31-3bcc06afb9ad</id>
@@ -100,13 +86,6 @@
 							<resourceGroup>
 								<name>RG1</name>
 							</resourceGroup>
-							<icon>
-								<attachment>
-									<id>a793288c-2381-45ad-b954-aabc375782b7</id>
-									<name>920x920.jpg</name>
-									<contentType>image/jpeg</contentType>
-								</attachment>
-							</icon>
 							<nestedResources>
 								<orchestratedResource>
 									<id>57137ca9-8542-4894-b850-712288f977f5</id>
