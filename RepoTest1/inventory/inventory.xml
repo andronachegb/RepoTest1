@@ -7,7 +7,6 @@
 			<name>T1.N-Additional</name>
 			<description>Description</description>
 			<isTemplate>true</isTemplate>
-			<driverId>d0c0273c-8f6a-45f6-a232-40c115879aae</driverId>
 			<type>DEVICE</type>
 			<interfaceType>ORCHESTRATION</interfaceType>
 			<utilizationType>EXCLUSIVE</utilizationType>
@@ -147,7 +146,6 @@ area</value>
 			<name>T1.1</name>
 			<description>Description</description>
 			<isTemplate>true</isTemplate>
-			<driverId>d0c0273c-8f6a-45f6-a232-40c115879aae</driverId>
 			<type>DEVICE</type>
 			<interfaceType>ORCHESTRATION</interfaceType>
 			<utilizationType>EXCLUSIVE</utilizationType>
@@ -434,7 +432,6 @@ area</value>
 			<description>Description</description>
 			<isTemplate>true</isTemplate>
 			<parentTemplateId>dbac1799-d0b5-4da9-856c-c2039488dc2a</parentTemplateId>
-			<driverId>d0c0273c-8f6a-45f6-a232-40c115879aae</driverId>
 			<type>DEVICE</type>
 			<interfaceType>ORCHESTRATION</interfaceType>
 			<utilizationType>EXCLUSIVE</utilizationType>
@@ -716,7 +713,6 @@ area</value>
 			<name>T1.N</name>
 			<description>Description</description>
 			<isTemplate>true</isTemplate>
-			<driverId>d0c0273c-8f6a-45f6-a232-40c115879aae</driverId>
 			<type>DEVICE</type>
 			<interfaceType>ORCHESTRATION</interfaceType>
 			<utilizationType>EXCLUSIVE</utilizationType>
