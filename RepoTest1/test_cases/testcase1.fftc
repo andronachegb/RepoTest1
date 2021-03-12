@@ -6,13 +6,64 @@
     <procedures>
         <item name="main">
             <steps>
-                <item guid="d84af155-b101-436d-92d0-0185ad5d3500" action="eval" useFieldsInCommand="false">
+                <item guid="9827eb80-24c7-47c9-8e83-bc37266e4a93" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>val = param(&apos;projName&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="b1708ace-df8d-4913-8bdf-96b6fc0da959" action="open" session="s1">
+                <item guid="175102ff-17b8-480b-bc3f-6e036ce9325b" action="open" session="s1">
+                    <command>
+                        <body>project://RepoTest2/session_profiles/REST.ffsp</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
+                        <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        <sessionProperties type="com.fnfr.svt.adapter.automation.tools.common.documents.TransferableDocumentObject" transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.restful.RESTfulSessionProperties"/>
+                        <sessionClass type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    </applicationProperties>
+                </item>
+                <item guid="ae4e32e6-872c-4f70-bb91-2e6361f97533" action="proc1" session="s1" useFieldsInCommand="false">
+                    <command>
+                        <body>-argm testing</body>
+                    </command>
+                    <postProcessing>
+                        <analysisRules>
+                            <item>
+                                <extractorInfo extractorType="none">
+                                    <extractorProperties type="com.fnfr.svt.documents.EmptyExtractorPropertyGroup"/>
+                                </extractorInfo>
+                                <processorInfo ruleType="assert">
+                                    <ruleProperties type="com.fnfr.svt.execution.builtin.processors.AssertionPropertyGroup">
+                                        <expression>1 == 1</expression>
+                                        <actionsWhenTrue>
+                                            <item actionId="DeclareExecutionIssue">
+                                                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup" severity="OK">
+                                                    <message>[val]</message>
+                                                </actionProperties>
+                                            </item>
+                                            <item actionId="PassTestIfNotAlreadyFailed">
+                                                <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                            </item>
+                                        </actionsWhenTrue>
+                                        <actionsWhenFalse>
+                                            <item actionId="DeclareExecutionIssue">
+                                                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
+                                                    <message>{auto_message_false}</message>
+                                                </actionProperties>
+                                            </item>
+                                            <item actionId="FailTest">
+                                                <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                            </item>
+                                        </actionsWhenFalse>
+                                    </ruleProperties>
+                                </processorInfo>
+                            </item>
+                        </analysisRules>
+                    </postProcessing>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="84e3ee8c-e450-4c4a-be09-8e9e7b164ebf" action="open" session="s2" useFieldsInCommand="false">
                     <command>
                         <body>project://RepoTest1/session_profiles/REST.ffsp</body>
                     </command>
@@ -23,7 +74,7 @@
                         <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     </applicationProperties>
                 </item>
-                <item guid="5668b992-4b57-4a82-904d-a27b11ee5fa1" action="proc1" session="s1" useFieldsInCommand="false">
+                <item guid="78b8617f-7c9e-40b0-bb62-1cfe1df96417" action="proc1" session="s2" useFieldsInCommand="false">
                     <command>
                         <body>-argm testing</body>
                     </command>
