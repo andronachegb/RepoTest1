@@ -431,7 +431,7 @@ area</value>
 			<name>RepoTest1-T1.2</name>
 			<description>Description</description>
 			<isTemplate>true</isTemplate>
-			<parentTemplateId>f3f48bf5-c395-4b53-9d23-b45ee2309ee6</parentTemplateId>
+			<parentTemplateId>dbac1799-d0b5-4da9-856c-c2039488dc2a</parentTemplateId>
 			<type>DEVICE</type>
 			<interfaceType>ORCHESTRATION</interfaceType>
 			<utilizationType>EXCLUSIVE</utilizationType>
