@@ -3,6 +3,7 @@
     <general>
         <language>Python</language>
     </general>
+    <testbed>project://RepoTest2/topologies/top1.tbml</testbed>
     <procedures>
         <item name="main">
             <steps>
@@ -153,6 +154,12 @@
                 <item guid="85acea3a-4e1e-4638-8a63-43747368888d" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(var1)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="71f1b341-8901-4173-bdfe-6d8271f8b12a" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(tbml(&apos;property&apos;, &apos;-id&apos;, &apos;resource_0&apos;, &apos;name&apos;))</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
