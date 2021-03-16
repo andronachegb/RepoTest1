@@ -163,6 +163,12 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
+                <item guid="2bbb1cf2-f721-47db-95bd-9ed33583327f" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(tbml(&apos;property&apos;, &apos;-id&apos;, &apos;resource_0&apos;, &apos;name&apos;))</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
             </steps>
         </item>
     </procedures>
