@@ -64,6 +64,6 @@
       }
     ],
     "runMode": "SEQUENTIAL",
-    "terminateOnItemFail": true
+    "terminateOnItemFail": false
   }
 }
