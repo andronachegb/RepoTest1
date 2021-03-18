@@ -111,12 +111,345 @@ area</value>
 						<availableValue>list</availableValue>
 					</availableValues>
 				</property>
+				<property>
+					<name>textBoxAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<value>textAdditional</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684131</group>
+					<seqNo>9</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>integerAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>INTEGER</datatype>
+					<widgetType>INTEGER_FIELD</widgetType>
+					<value>123</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684131</group>
+					<seqNo>10</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>decimalAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<value>1.1</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684131</group>
+					<seqNo>11</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>boolAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>BOOLEAN</datatype>
+					<widgetType>CHECKBOX</widgetType>
+					<value>true</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684131</group>
+					<seqNo>12</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>textAreaAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_AREA</widgetType>
+					<value>text
+areaAdditional</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684131</group>
+					<seqNo>13</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>fileUploadAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>ATTACHMENT</datatype>
+					<widgetType>FILE_UPLOAD</widgetType>
+					<attachment>
+						<id>b2726f54-ab5d-462d-bb96-576bc5bf5a01</id>
+						<name>jboss-output.log</name>
+						<contentType>application/octet-stream</contentType>
+					</attachment>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684131</group>
+					<seqNo>14</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>passwordAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>STRING</datatype>
+					<widgetType>PASSWORD_FIELD</widgetType>
+					<value>2JoWQiv1i4fJcqZbTrz8EjSLFhsV7TiTNMgHKvkkdBI=</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684131</group>
+					<seqNo>15</seqNo>
+					<encrypted>true</encrypted>
+				</property>
+				<property>
+					<name>dropDownAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>down</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684131</group>
+					<seqNo>16</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>down</availableValue>
+						<availableValue>drop</availableValue>
+						<availableValue>list</availableValue>
+						<availableValue>Additional</availableValue>
+					</availableValues>
+				</property>
 			</properties>
 			<propertyGroups>
 				<propertyGroup>
 					<id>522dfcb3-aa02-4709-bf88-743ef4684139</id>
 					<name>Property Group</name>
 					<seqNo>1</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+				<propertyGroup>
+					<id>522dfcb3-aa02-4709-bf88-743ef4684131</id>
+					<name>Property Group Additional</name>
+					<seqNo>2</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+			<icon/>
+			<defaultImageAttach/>
+			<defaultConfigAttach/>
+		</template>
+		<template>
+			<id>79d2ccd3-6a77-46df-ac89-eaa3c6fea151</id>
+			<revisionId>79d2ccd3-6a77-46df-ac89-eaa3c6fea151</revisionId>
+			<name>bugtest-T-Port Additional</name>
+			<description>Description Additional</description>
+			<isTemplate>true</isTemplate>
+			<type>PORT</type>
+			<interfaceType>NONE</interfaceType>
+			<utilizationType>SHARED</utilizationType>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isCustomReservationTime>false</isCustomReservationTime>
+			<properties>
+				<property>
+					<name>textBox</name>
+					<description>Description</description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<value>text</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684132</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>integer</name>
+					<description>Description</description>
+					<datatype>INTEGER</datatype>
+					<widgetType>INTEGER_FIELD</widgetType>
+					<value>123</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684132</group>
+					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>decimal</name>
+					<description>Description</description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<value>1.1</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684132</group>
+					<seqNo>3</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>bool</name>
+					<description>Description</description>
+					<datatype>BOOLEAN</datatype>
+					<widgetType>CHECKBOX</widgetType>
+					<value>true</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684132</group>
+					<seqNo>4</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>textArea</name>
+					<description>Description</description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_AREA</widgetType>
+					<value>text
+area</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684132</group>
+					<seqNo>5</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>fileUpload</name>
+					<description>Description</description>
+					<datatype>ATTACHMENT</datatype>
+					<widgetType>FILE_UPLOAD</widgetType>
+					<attachment>
+						<id>b2726f54-ab5d-462d-bb96-576bc5bf5a01</id>
+						<name>jboss-output.log</name>
+						<contentType>application/octet-stream</contentType>
+					</attachment>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684132</group>
+					<seqNo>6</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>password</name>
+					<description>Description</description>
+					<datatype>STRING</datatype>
+					<widgetType>PASSWORD_FIELD</widgetType>
+					<value>2JoWQiv1i4fJcqZbTrz8EjSLFhsV7TiTNMgHKvkkdBI=</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684132</group>
+					<seqNo>7</seqNo>
+					<encrypted>true</encrypted>
+				</property>
+				<property>
+					<name>dropDown</name>
+					<description>Description</description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>down</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684132</group>
+					<seqNo>8</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>down</availableValue>
+						<availableValue>drop</availableValue>
+						<availableValue>list</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>textBoxAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<value>textAdditional</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684133</group>
+					<seqNo>9</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>integerAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>INTEGER</datatype>
+					<widgetType>INTEGER_FIELD</widgetType>
+					<value>123</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684133</group>
+					<seqNo>10</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>decimalAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<value>1.1</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684133</group>
+					<seqNo>11</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>boolAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>BOOLEAN</datatype>
+					<widgetType>CHECKBOX</widgetType>
+					<value>true</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684133</group>
+					<seqNo>12</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>textAreaAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_AREA</widgetType>
+					<value>text
+areaAdditional</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684133</group>
+					<seqNo>13</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>fileUploadAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>ATTACHMENT</datatype>
+					<widgetType>FILE_UPLOAD</widgetType>
+					<attachment>
+						<id>b2726f54-ab5d-462d-bb96-576bc5bf5a01</id>
+						<name>jboss-output.log</name>
+						<contentType>application/octet-stream</contentType>
+					</attachment>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684133</group>
+					<seqNo>14</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>passwordAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>STRING</datatype>
+					<widgetType>PASSWORD_FIELD</widgetType>
+					<value>2JoWQiv1i4fJcqZbTrz8EjSLFhsV7TiTNMgHKvkkdBI=</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684133</group>
+					<seqNo>15</seqNo>
+					<encrypted>true</encrypted>
+				</property>
+				<property>
+					<name>dropDownAdditional</name>
+					<description>DescriptionAdditional</description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>down</value>
+					<required>false</required>
+					<group>522dfcb3-aa02-4709-bf88-743ef4684133</group>
+					<seqNo>16</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>down</availableValue>
+						<availableValue>drop</availableValue>
+						<availableValue>list</availableValue>
+						<availableValue>Additional</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>522dfcb3-aa02-4709-bf88-743ef4684132</id>
+					<name>Property Group</name>
+					<seqNo>1</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+				<propertyGroup>
+					<id>522dfcb3-aa02-4709-bf88-743ef4684133</id>
+					<name>Property Group Additional</name>
+					<seqNo>2</seqNo>
 					<isHidden>false</isHidden>
 				</propertyGroup>
 			</propertyGroups>
@@ -241,6 +574,32 @@ area</value>
 					<revisionId>4fc0838a-5882-488f-9904-1b802596e462</revisionId>
 					<name>Port 1</name>
 					<description></description>
+					<isTemplate>false</isTemplate>
+					<parentTemplateId>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</parentTemplateId>
+					<type>TEMPLATE_PORT</type>
+					<interfaceType>NONE</interfaceType>
+					<utilizationType>EXCLUSIVE</utilizationType>
+					<reservationTime>IMMEDIATE</reservationTime>
+					<isCustomReservationTime>false</isCustomReservationTime>
+					<properties/>
+					<propertyGroups>
+						<propertyGroup>
+							<id>522dfcb3-aa02-4709-bf88-743ef4684139</id>
+							<name>Property Group</name>
+							<seqNo>1</seqNo>
+							<isHidden>false</isHidden>
+						</propertyGroup>
+					</propertyGroups>
+					<childGroupId>a8be0719-32a8-4935-93fc-eb02d87bc9df</childGroupId>
+					<icon/>
+					<defaultImageAttach/>
+					<defaultConfigAttach/>
+				</child>
+				<child>
+					<id>4fc0838a-5882-488f-9904-1b802596e461</id>
+					<revisionId>4fc0838a-5882-488f-9904-1b802596e461</revisionId>
+					<name>Port 1 Additional</name>
+					<description>Additional</description>
 					<isTemplate>false</isTemplate>
 					<parentTemplateId>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</parentTemplateId>
 					<type>TEMPLATE_PORT</type>
@@ -1024,6 +1383,38 @@ area</value>
 						</property>
 					</properties>
 				</session>
+				<session>
+					<id>302971d0-dfaa-4261-bbdd-1a73a3624431</id>
+					<sessionId>f2f48367-f512-469f-89a0-a6ce18eb9c98</sessionId>
+					<name>SSHAdditional</name>
+					<language>Python</language>
+					<baseProfile>application://com.fnfr.svt.applications.ssh</baseProfile>
+					<baseApplication>com.fnfr.svt.applications.ssh</baseApplication>
+					<isDisabled>false</isDisabled>
+					<orchestratedResourceId>c89d3e10-d062-446a-86fa-e3b46bcc7c59</orchestratedResourceId>
+					<properties>
+						<property>
+							<id>3df57efe-9ae4-475c-8b93-bec6ff50a211</id>
+							<name>password</name>
+							<value>iRyLc4KQj80=</value>
+						</property>
+						<property>
+							<id>6a3970c2-6160-46bf-9ad2-3131b210e8c1</id>
+							<name>ipAddress</name>
+							<value>127.0.0.1</value>
+						</property>
+						<property>
+							<id>d07771f7-d2a1-4b7d-9d1d-c4757e3401c1</id>
+							<name>type</name>
+							<value>com.fnfr.svt.applications.ssh.documents.SSHProperties</value>
+						</property>
+						<property>
+							<id>55495a7e-389b-4c8a-b388-91b34faf5951</id>
+							<name>user</name>
+							<value>root</value>
+						</property>
+					</properties>
+				</session>
 			</sessions>
 			<nestedResources>
 				<orchestratedResource>
@@ -1123,6 +1514,38 @@ area</value>
 						</property>
 					</properties>
 				</session>
+				<session>
+					<id>8f698f82-2507-416b-b8d8-b15b360f5631</id>
+					<sessionId>85ace385-f018-4961-8995-c96d79347fc4</sessionId>
+					<name>SSHAdditional</name>
+					<language>Python</language>
+					<baseProfile>application://com.fnfr.svt.applications.ssh</baseProfile>
+					<baseApplication>com.fnfr.svt.applications.ssh</baseApplication>
+					<isDisabled>false</isDisabled>
+					<abstractResourceId>386fb963-5c14-452a-a9cd-1b0646d83c03</abstractResourceId>
+					<properties>
+						<property>
+							<id>e9afbd38-ca56-45e9-856f-2e1d7fa57511</id>
+							<name>password</name>
+							<value>iRyLc4KQj80=</value>
+						</property>
+						<property>
+							<id>8b5a254a-3996-4883-ac59-ff4d344f6b61</id>
+							<name>ipAddress</name>
+							<value>127.0.0.1</value>
+						</property>
+						<property>
+							<id>f083e56e-9cb5-4c7a-be32-c322cfdfcc01</id>
+							<name>type</name>
+							<value>com.fnfr.svt.applications.ssh.documents.SSHProperties</value>
+						</property>
+						<property>
+							<id>82aa8a6e-c1a2-4ec0-8f3a-42606384d9c1</id>
+							<name>user</name>
+							<value>root</value>
+						</property>
+					</properties>
+				</session>
 			</sessions>
 			<nestedResources>
 				<abstractResource>
@@ -1130,6 +1553,23 @@ area</value>
 					<type>DEVICE</type>
 					<name>Abstract Nested</name>
 					<description>Description</description>
+					<condition>template[T1.N]</condition>
+					<reservationTime>IMMEDIATE</reservationTime>
+					<isPublic>true</isPublic>
+					<referencedTemplateId>f6792f0a-190d-4ca5-9459-099f4e1aa898</referencedTemplateId>
+					<icon>
+						<attachment>
+							<id>9fa04735-03f1-4cc9-b8e7-b2a794210106</id>
+							<name>ice_screenshot_20201014-175931.png</name>
+							<contentType>image/png</contentType>
+						</attachment>
+					</icon>
+				</abstractResource>
+				<abstractResource>
+					<id>5da1ab5b-6775-435b-96cf-dc792c327121</id>
+					<type>DEVICE</type>
+					<name>Abstract Nested Additional</name>
+					<description>Description Additional</description>
 					<condition>template[T1.N]</condition>
 					<reservationTime>IMMEDIATE</reservationTime>
 					<isPublic>true</isPublic>
@@ -1175,6 +1615,26 @@ area</value>
 			<isPublic>true</isPublic>
 			<icon/>
 		</abstractResource>
+				<abstractResource>
+			<id>9f6cf0a3-da35-43b6-8db2-cd6f3e6e3136</id>
+			<type>LINK</type>
+			<name>bugtest-Abstract Link Additional</name>
+			<description>Description</description>
+			<condition>integer[Port Speed] >= 0</condition>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isPublic>true</isPublic>
+			<icon/>
+		</abstractResource>
+		<abstractResource>
+			<id>5a4737ef-7271-4680-a0a2-29f0c73f3513</id>
+			<type>PORT</type>
+			<name>bugtest-Abstract Port Additional</name>
+			<description>Description</description>
+			<condition>template[T-Port]</condition>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isPublic>true</isPublic>
+			<icon/>
+		</abstractResource>
 	</abstractResources>
 	<topologies>
 		<topology>
@@ -1183,6 +1643,15 @@ area</value>
 			<attachment>
 				<id>a17d8cfd-a76a-46a3-a2eb-519fe102b732</id>
 				<name>Repository Topology</name>
+				<contentType>application/xml</contentType>
+			</attachment>
+		</topology>
+				<topology>
+			<name>bugtest-Repository Topology</name>
+			<versionId>ba14a52b-8a2b-4c24-8647-f4dfa8f5e2a4</versionId>
+			<attachment>
+				<id>a17d8cfd-a76a-46a3-a2eb-519fe102b733</id>
+				<name>Repository Topology Additional</name>
 				<contentType>application/xml</contentType>
 			</attachment>
 		</topology>
