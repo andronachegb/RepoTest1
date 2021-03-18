@@ -1,0 +1,69 @@
+{
+  "general": {
+    "autoExtendReservation": true,
+    "callbackURL": null,
+    "createdDate": 0,
+    "customParameterTypes": [],
+    "detailLevel": "ALL_ISSUES_ERROR_STEPS",
+    "ignoredRequirements": [],
+    "parameterFilePath": null,
+    "parameters": [
+      {
+        "description": "desc1",
+        "masked": false,
+        "name": "param1",
+        "parameters": [],
+        "type": "TEXT",
+        "value": "123"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "agent_name",
+        "value": "vel-alin85s.spirenteng.com"
+      }
+    ],
+    "reservationId": null,
+    "topologyId": null,
+    "topologyPath": null,
+    "topologyVersionId": null
+  },
+  "main": {
+    "items": [
+      {
+        "customParameterTypes": [],
+        "files": [],
+        "ignoredRequirements": [],
+        "itemId": null,
+        "parameterFilePath": null,
+        "parameters": [],
+        "path": "RepoTest1/RepoTest1/test_cases/tc4.fftc",
+        "requirements": [],
+        "reservationId": null,
+        "testbed": null,
+        "topologyName": null,
+        "topologyId": null,
+        "topologyVersionId": null,
+        "type": "SCRIPT"
+      },
+      {
+        "customParameterTypes": [],
+        "files": [],
+        "ignoredRequirements": [],
+        "itemId": null,
+        "parameterFilePath": null,
+        "parameters": [],
+        "path": "RepoTest1/RepoTest1/test_cases/testcase1.fftc",
+        "requirements": [],
+        "reservationId": null,
+        "testbed": null,
+        "topologyName": null,
+        "topologyId": null,
+        "topologyVersionId": null,
+        "type": "SCRIPT"
+      }
+    ],
+    "runMode": "SEQUENTIAL",
+    "terminateOnItemFail": true
+  }
+}
