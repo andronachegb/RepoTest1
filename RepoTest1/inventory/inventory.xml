@@ -1596,7 +1596,7 @@ area</value>
 			</nestedResources>
 		</abstractResource>
 		<abstractResource>
-			<id>9f6cf0a3-da35-43b6-8db2-cd6f3e6e3136</id>
+			<id>9f6cf0a3-da35-43b6-8db2-cd6f3e6e3132</id>
 			<type>LINK</type>
 			<name>bugtest-Abstract Link</name>
 			<description>Description</description>
@@ -1606,7 +1606,7 @@ area</value>
 			<icon/>
 		</abstractResource>
 		<abstractResource>
-			<id>5a4737ef-7271-4680-a0a2-29f0c73f3513</id>
+			<id>5a4737ef-7271-4680-a0a2-29f0c73f3511</id>
 			<type>PORT</type>
 			<name>bugtest-Abstract Port</name>
 			<description>Description</description>
