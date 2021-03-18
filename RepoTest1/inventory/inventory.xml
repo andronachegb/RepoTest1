@@ -1646,8 +1646,8 @@ area</value>
 				<contentType>application/xml</contentType>
 			</attachment>
 		</topology>
-				<topology>
-			<name>bugtest-Repository Topology</name>
+		<topology>
+			<name>bugtest-Repository Topology Additional</name>
 			<versionId>ba14a52b-8a2b-4c24-8647-f4dfa8f5e2a4</versionId>
 			<attachment>
 				<id>a17d8cfd-a76a-46a3-a2eb-519fe102b733</id>
