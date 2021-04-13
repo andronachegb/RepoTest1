@@ -7,6 +7,8 @@
     <responseLibrary inherit="false">project://RepoTest2/</responseLibrary>
     <formMapLibrary inherit="false">project://RepoTest1/</formMapLibrary>
     <sessionClassTestCase inherit="false">project://RepoTest2/session_profiles/qcLib1.fftc</sessionClassTestCase>
+    <Overview>head</Overview>
+    <Description>desc</Description>
     <isReferenceProfile>true</isReferenceProfile>
     <language>Python</language>
 </SessionTemplate>
