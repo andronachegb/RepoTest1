@@ -8,5 +8,40 @@
                 </application>
             </applicability>
         </item>
+        <item name="response_maos/rmp2.ffrm">
+            <applicability>
+                <application>
+                    <item>com.fnfr.itest.applications.webservices.restful</item>
+                </application>
+            </applicability>
+        </item>
+        <item name="response_maos/rmp3.ffrm">
+            <applicability>
+                <application>
+                    <item>com.fnfr.itest.applications.webservices.restful</item>
+                </application>
+            </applicability>
+        </item>
+        <item name="response_maos/rmp4.ffrm">
+            <applicability>
+                <application>
+                    <item>com.fnfr.itest.applications.webservices.restful</item>
+                </application>
+            </applicability>
+        </item>
+        <item name="response_maos/rmp5.ffrm">
+            <applicability>
+                <application>
+                    <item>com.fnfr.itest.applications.webservices.restful</item>
+                </application>
+            </applicability>
+        </item>
+        <item name="response_maos/rmp6.ffrm">
+            <applicability>
+                <application>
+                    <item>com.fnfr.itest.applications.webservices.restful</item>
+                </application>
+            </applicability>
+        </item>
     </mapCatalog>
 </ResponseMapCatalog>
