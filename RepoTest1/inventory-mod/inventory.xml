@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <inventory format-version="1.0">
+	<templates>
 		<template>
 			<id>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</id>
 			<revisionId>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</revisionId>
