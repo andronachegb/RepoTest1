@@ -1,6 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <inventory format-version="1.0">
 	<templates>
+				<template>
+			<id>a6792f0a-190d-4ca5-9459-099f4e1aa898</id>
+			<revisionId>a6792f0a-190d-4ca5-9459-099f4e1aa898</revisionId>
+			<name>T1.N-Additional</name>
+			<description>Description</description>
+			<isTemplate>true</isTemplate>
+			<type>DEVICE</type>
+			<interfaceType>ORCHESTRATION</interfaceType>
+			<utilizationType>EXCLUSIVE</utilizationType>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isCustomReservationTime>false</isCustomReservationTime>
+			<properties>
+			</properties>
+			<children>
+			</children>
+		</template>
 		<template>
 			<id>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</id>
 			<revisionId>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</revisionId>
@@ -409,6 +425,288 @@ area</value>
 				</nestedTemplate>
 			</nestedTemplates>
 		</template>
+				<template>
+			<id>8a0557a8-862c-470c-8c1c-c00fa768dd75</id>
+			<revisionId>8a0557a8-862c-470c-8c1c-c00fa768dd75</revisionId>
+			<name>T1.2</name>
+			<description>Description</description>
+			<isTemplate>true</isTemplate>
+			<parentTemplateId>dbac1799-d0b5-4da9-856c-c2039488dc2a</parentTemplateId>
+			<type>DEVICE</type>
+			<interfaceType>ORCHESTRATION</interfaceType>
+			<utilizationType>EXCLUSIVE</utilizationType>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isCustomReservationTime>false</isCustomReservationTime>
+			<properties>
+				<property>
+					<name>integer</name>
+					<description>Desc</description>
+					<datatype>INTEGER</datatype>
+					<widgetType>INTEGER_FIELD</widgetType>
+					<value>123</value>
+					<required>false</required>
+					<group>a1f97f78-5f5d-4b88-933e-147fa3289894</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>textBox</name>
+					<description>desc</description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<value>text</value>
+					<required>false</required>
+					<group>a1f97f78-5f5d-4b88-933e-147fa3289894</group>
+					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>decimal</name>
+					<description>Description</description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<value>1.1</value>
+					<required>false</required>
+					<group>a1f97f78-5f5d-4b88-933e-147fa3289894</group>
+					<seqNo>3</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>bool</name>
+					<description>Description</description>
+					<datatype>BOOLEAN</datatype>
+					<widgetType>CHECKBOX</widgetType>
+					<value>false</value>
+					<required>false</required>
+					<group>a1f97f78-5f5d-4b88-933e-147fa3289894</group>
+					<seqNo>4</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>textArea</name>
+					<description>Description</description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_AREA</widgetType>
+					<value>text
+area</value>
+					<required>false</required>
+					<group>a1f97f78-5f5d-4b88-933e-147fa3289894</group>
+					<seqNo>5</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>fileUpload</name>
+					<description>Description</description>
+					<datatype>ATTACHMENT</datatype>
+					<widgetType>FILE_UPLOAD</widgetType>
+					<attachment>
+						<id>1fb4fca1-8c8a-4aae-81b6-213491267dfd</id>
+						<name>25 Feb - Copy.html</name>
+						<contentType>text/html</contentType>
+					</attachment>
+					<required>false</required>
+					<group>a1f97f78-5f5d-4b88-933e-147fa3289894</group>
+					<seqNo>6</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>password</name>
+					<description>Description</description>
+					<datatype>STRING</datatype>
+					<widgetType>PASSWORD_FIELD</widgetType>
+					<value>Xts3J7UosNtvvlDCayTTgiG-eTAgxfWf-ThSQC5u8rc=</value>
+					<required>false</required>
+					<group>a1f97f78-5f5d-4b88-933e-147fa3289894</group>
+					<seqNo>7</seqNo>
+					<encrypted>true</encrypted>
+				</property>
+				<property>
+					<name>dropDown</name>
+					<description>Descripption</description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>list</value>
+					<required>false</required>
+					<group>a1f97f78-5f5d-4b88-933e-147fa3289894</group>
+					<seqNo>8</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>down</availableValue>
+						<availableValue>drop</availableValue>
+						<availableValue>list</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<children>
+				<child>
+					<id>c3e6574d-95f9-4759-a65f-7cbe64becc27</id>
+					<revisionId>c3e6574d-95f9-4759-a65f-7cbe64becc27</revisionId>
+					<name>Port 1</name>
+					<description></description>
+					<isTemplate>false</isTemplate>
+					<parentTemplateId>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</parentTemplateId>
+					<type>TEMPLATE_PORT</type>
+					<interfaceType>NONE</interfaceType>
+					<utilizationType>EXCLUSIVE</utilizationType>
+					<reservationTime>IMMEDIATE</reservationTime>
+					<isCustomReservationTime>false</isCustomReservationTime>
+					<properties/>
+					<propertyGroups>
+						<propertyGroup>
+							<id>522dfcb3-aa02-4709-bf88-743ef4684139</id>
+							<name>Property Group</name>
+							<seqNo>1</seqNo>
+							<isHidden>false</isHidden>
+						</propertyGroup>
+					</propertyGroups>
+					<childGroupId>b6e621fe-38e1-4767-bf3e-2030da7aa5d9</childGroupId>
+					<icon/>
+					<defaultImageAttach/>
+					<defaultConfigAttach/>
+				</child>
+				<child>
+					<id>0192b36c-adce-4995-ab5f-7cb82d2991d0</id>
+					<revisionId>0192b36c-adce-4995-ab5f-7cb82d2991d0</revisionId>
+					<name>Port 2</name>
+					<description></description>
+					<isTemplate>false</isTemplate>
+					<parentTemplateId>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</parentTemplateId>
+					<type>TEMPLATE_PORT</type>
+					<interfaceType>NONE</interfaceType>
+					<utilizationType>EXCLUSIVE</utilizationType>
+					<reservationTime>IMMEDIATE</reservationTime>
+					<isCustomReservationTime>false</isCustomReservationTime>
+					<properties/>
+					<propertyGroups>
+						<propertyGroup>
+							<id>522dfcb3-aa02-4709-bf88-743ef4684139</id>
+							<name>Property Group</name>
+							<seqNo>1</seqNo>
+							<isHidden>false</isHidden>
+						</propertyGroup>
+					</propertyGroups>
+					<childGroupId>b6e621fe-38e1-4767-bf3e-2030da7aa5d9</childGroupId>
+					<icon/>
+					<defaultImageAttach/>
+					<defaultConfigAttach/>
+				</child>
+				<child>
+					<id>2320e266-3bd6-4873-a1bf-1a14fb41c30c</id>
+					<revisionId>2320e266-3bd6-4873-a1bf-1a14fb41c30c</revisionId>
+					<name>Port 3</name>
+					<description></description>
+					<isTemplate>false</isTemplate>
+					<parentTemplateId>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</parentTemplateId>
+					<type>TEMPLATE_PORT</type>
+					<interfaceType>NONE</interfaceType>
+					<utilizationType>EXCLUSIVE</utilizationType>
+					<reservationTime>IMMEDIATE</reservationTime>
+					<isCustomReservationTime>false</isCustomReservationTime>
+					<properties/>
+					<propertyGroups>
+						<propertyGroup>
+							<id>522dfcb3-aa02-4709-bf88-743ef4684139</id>
+							<name>Property Group</name>
+							<seqNo>1</seqNo>
+							<isHidden>false</isHidden>
+						</propertyGroup>
+					</propertyGroups>
+					<childGroupId>b6e621fe-38e1-4767-bf3e-2030da7aa5d9</childGroupId>
+					<icon/>
+					<defaultImageAttach/>
+					<defaultConfigAttach/>
+				</child>
+				<child>
+					<id>cede93c3-6de8-485e-a666-9c93ec5cf9fe</id>
+					<revisionId>cede93c3-6de8-485e-a666-9c93ec5cf9fe</revisionId>
+					<name>Port 4</name>
+					<description></description>
+					<isTemplate>false</isTemplate>
+					<parentTemplateId>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</parentTemplateId>
+					<type>TEMPLATE_PORT</type>
+					<interfaceType>NONE</interfaceType>
+					<utilizationType>EXCLUSIVE</utilizationType>
+					<reservationTime>IMMEDIATE</reservationTime>
+					<isCustomReservationTime>false</isCustomReservationTime>
+					<properties/>
+					<propertyGroups>
+						<propertyGroup>
+							<id>522dfcb3-aa02-4709-bf88-743ef4684139</id>
+							<name>Property Group</name>
+							<seqNo>1</seqNo>
+							<isHidden>false</isHidden>
+						</propertyGroup>
+					</propertyGroups>
+					<childGroupId>b6e621fe-38e1-4767-bf3e-2030da7aa5d9</childGroupId>
+					<icon/>
+					<defaultImageAttach/>
+					<defaultConfigAttach/>
+				</child>
+				<child>
+					<id>56d55d20-7646-42c8-9e4d-ed8b57d2729e</id>
+					<revisionId>56d55d20-7646-42c8-9e4d-ed8b57d2729e</revisionId>
+					<name>Port 5</name>
+					<description></description>
+					<isTemplate>false</isTemplate>
+					<parentTemplateId>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</parentTemplateId>
+					<type>TEMPLATE_PORT</type>
+					<interfaceType>NONE</interfaceType>
+					<utilizationType>EXCLUSIVE</utilizationType>
+					<reservationTime>IMMEDIATE</reservationTime>
+					<isCustomReservationTime>false</isCustomReservationTime>
+					<properties/>
+					<propertyGroups>
+						<propertyGroup>
+							<id>522dfcb3-aa02-4709-bf88-743ef4684139</id>
+							<name>Property Group</name>
+							<seqNo>1</seqNo>
+							<isHidden>false</isHidden>
+						</propertyGroup>
+					</propertyGroups>
+					<childGroupId>b6e621fe-38e1-4767-bf3e-2030da7aa5d9</childGroupId>
+					<icon/>
+					<defaultImageAttach/>
+					<defaultConfigAttach/>
+				</child>
+			</children>
+			<childGroups>
+				<childGroup>
+					<id>b6e621fe-38e1-4767-bf3e-2030da7aa5d9</id>
+					<name>PG</name>
+					<reserveWholeGroup>false</reserveWholeGroup>
+				</childGroup>
+			</childGroups>
+			<propertyGroups>
+				<propertyGroup>
+					<id>a1f97f78-5f5d-4b88-933e-147fa3289894</id>
+					<name>Prop Group</name>
+					<seqNo>1</seqNo>
+					<isHidden>true</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+			<icon>
+				<attachment>
+					<id>e9bf61c4-1b93-418b-8910-9f6314708c1f</id>
+					<name>ice_screenshot_20201014-175931.png</name>
+					<contentType>image/png</contentType>
+				</attachment>
+			</icon>
+			<defaultImageAttach>
+				<attachment>
+					<id>dae20137-bd4d-47ab-ad24-bd541eec406e</id>
+					<name>5GC_Automation_Report-25-02-2021_20-06-24.html</name>
+					<contentType>text/html</contentType>
+				</attachment>
+			</defaultImageAttach>
+			<defaultConfigAttach>
+				<attachment>
+					<id>537b548b-bd93-4b51-9425-ed68433b2826</id>
+					<name>25 Feb.html</name>
+					<contentType>text/html</contentType>
+				</attachment>
+			</defaultConfigAttach>
+			<nestedTemplates/>
+		</template>
 		<template>
 			<id>f6792f0a-190d-4ca5-9459-099f4e1aa898</id>
 			<revisionId>f6792f0a-190d-4ca5-9459-099f4e1aa898</revisionId>
@@ -694,7 +992,7 @@ area</value>
 		<abstractResource>
 			<id>386fb963-5c14-452a-a9cd-1b0646d83c03</id>
 			<type>DEVICE</type>
-			<name>RepoTest1-Abstract Device</name>
+			<name>Abstract Device</name>
 			<description>Desc</description>
 			<condition>template[T1.1]</condition>
 			<reservationTime>IMMEDIATE</reservationTime>
