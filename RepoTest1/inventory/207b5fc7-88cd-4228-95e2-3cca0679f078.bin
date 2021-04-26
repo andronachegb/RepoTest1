@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Export - SCM1</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="if9ff64df-0519-4096-a0d1-33f8512c1067" id="if9ff64df-0519-4096-a0d1-33f8512c1067" shared="false" type="group">
+<property isimportant="false" name="name">Orchestrated A - SCM1 Group</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="isorchestrated">true</property>
+<property isimportant="false" name="collapsed"/>
+<boundary height="395" width="140" x="231" y="109"/>
+<resource guid="e0f1bc3c-8564-41ec-9126-edf7f7bd9bc0" id="ic32ef669-3732-4aa0-8b8a-ab6d5165f160" shared="true" type="device">
+<property isimportant="false" name="name">Orchestrated A - SCM1</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=e0f1bc3c-8564-41ec-9126-edf7f7bd9bc0</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">f519e596-c4d3-4e7e-b2f6-d7b30f570f18</property>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="templateId">3a093682-0ae8-42e4-b574-138cddc33b0e</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template A - SCM1]</extensions>
+<boundary height="100" width="100" x="20" y="35"/>
+<resource guid="0b816602-c2ea-48f5-97e5-6f60448012d1" id="i78cbf6ca-801a-4b60-bba9-2aa63be35cdb" type="port">
+<property isimportant="false" name="name">Port 1</property>
+<property isimportant="false" name="description">Port 1</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template Port - SCM1]</extensions>
+</resource>
+<resource guid="9350d4b1-570b-47b4-bc57-3aa928e7e7fb" id="i7b08dd14-4da8-45fd-b317-a32acd5fce1f" type="port">
+<property isimportant="false" name="name">Port 2</property>
+<property isimportant="false" name="description">Port 2</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template Port - SCM1]</extensions>
+</resource>
+</resource>
+<resource guid="0bce06e1-c026-49a4-ad5a-53b0538c7b53" id="i8dc8b9b5-aea8-40a1-bb01-5fb672c5cd16" shared="true" type="device">
+<property isimportant="false" name="name">Orchestrated N1</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=0bce06e1-c026-49a4-ad5a-53b0538c7b53</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">f519e596-c4d3-4e7e-b2f6-d7b30f570f18</property>
+<property isimportant="false" name="hostResource_topologyResourceId">ic32ef669-3732-4aa0-8b8a-ab6d5165f160</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="templateId">999ae01c-930c-439c-8385-7528899e3c90</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<boundary height="100" width="100" x="20" y="155"/>
+<resource guid="4722dcf9-b455-466e-b456-7addf992d32a" id="i6873579b-e69a-4aba-803b-d2cabc3f7fad" type="port">
+<property isimportant="false" name="name">Port  1</property>
+<property isimportant="false" name="description">Port  1</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="8fbda3d5-87eb-4bb9-b339-9c3cbba813c6" id="i35cf02fa-0d12-4918-a49e-61a9c91f1593" type="port">
+<property isimportant="false" name="name">Port  2</property>
+<property isimportant="false" name="description">Port  2</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+<resource guid="41e0a484-33f5-4bd7-a830-582356e46940" id="ia5fd04c2-6a8e-4670-89cc-99eee9e19073" shared="true" type="device">
+<property isimportant="false" name="name">Orchestrated N2</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=41e0a484-33f5-4bd7-a830-582356e46940</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">f519e596-c4d3-4e7e-b2f6-d7b30f570f18</property>
+<property isimportant="false" name="hostResource_topologyResourceId">i8dc8b9b5-aea8-40a1-bb01-5fb672c5cd16</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="templateId">ca209fc2-7e59-48c9-98b6-bd946b656e75</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<boundary height="100" width="100" x="20" y="275"/>
+<resource guid="d41788dc-b296-48cb-a9a2-736feeba06cc" id="i7c17dfda-7c9e-42b6-bda9-1a1b8ca958f7" type="port">
+<property isimportant="false" name="name">Port 1</property>
+<property isimportant="false" name="description">Port 1</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="73d7a6a9-ba4d-468e-b303-9fbd2644fb1d" id="i9a983921-00ef-464b-9764-2d05c1fddf1f" type="port">
+<property isimportant="false" name="name">Port 2</property>
+<property isimportant="false" name="description">Port 2</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource guid="i2368b584-5244-4efb-8ef7-f4eec098e96b" id="i2368b584-5244-4efb-8ef7-f4eec098e96b" shared="false" type="group">
+<property isimportant="false" name="name">Abstract A - SCM1 Group</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="collapsed"/>
+<boundary height="395" width="380.0000000000001" x="552.9999999999998" y="109"/>
+<resource guid="0313c75a-2fdb-4839-94ed-b89f3d58a6a1" id="i91186403-f26f-47cc-b952-526bdc1e60f4" shared="true" type="device">
+<property isimportant="false" name="name">Abstract A - SCM1</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=0313c75a-2fdb-4839-94ed-b89f3d58a6a1</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">20b147e2-3cec-4fff-afe5-f39074d5e0bb</property>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template A - SCM1]</extensions>
+<boundary height="100" width="100" x="19.999999999999886" y="35"/>
+<resource guid="80a8dd2f-0354-4ed4-b270-300a458c19bd" id="ief6ad9a5-25a4-4f4e-9255-df4c6a800ae6" type="port">
+<property isimportant="false" name="name">Port 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">connected</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template Port - SCM1]</extensions>
+<property name="inventoryName"/>
+</resource>
+<resource guid="c57d720a-2fdd-4793-8363-516e15fb550f" id="i65d8b2f1-747b-4926-aeb0-fd82a30b4a52" type="port">
+<property isimportant="false" name="name">Port 2</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template Port - SCM1]</extensions>
+<property name="inventoryName"/>
+</resource>
+<property name="inventoryName"/>
+</resource>
+<resource guid="147bc540-ac6d-48b4-a5cd-005778ec28b7" id="iaa8f67c7-b5ea-4be3-b9c1-24641c601094" shared="true" type="device">
+<property isimportant="false" name="name">Abstract N1 1</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=147bc540-ac6d-48b4-a5cd-005778ec28b7</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">f519e596-c4d3-4e7e-b2f6-d7b30f570f18</property>
+<property isimportant="false" name="hostResource_topologyResourceId">i91186403-f26f-47cc-b952-526bdc1e60f4</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template N1 - SCM1]</extensions>
+<boundary height="100" width="100" x="19.999999999999886" y="155"/>
+<resource guid="2e70239f-4065-49f2-a574-97dfc9d9cdfc" id="i725957dc-da7a-4fb6-9a95-c39604a88541" type="port">
+<property isimportant="false" name="name">Port 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template Port - SCM1]</extensions>
+<property name="inventoryName"/>
+</resource>
+<resource guid="7220add1-04fe-4449-87de-fd5735b885c5" id="ia7e10b27-13e1-4509-bf1f-a6e758a1b8e7" type="port">
+<property isimportant="false" name="name">Port 2</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template Port - SCM1]</extensions>
+<property name="inventoryName"/>
+</resource>
+<property name="inventoryName"/>
+</resource>
+<resource guid="af0b158c-b9bc-419d-9967-9389e022be1c" id="ib3c956e4-1cc5-4bd7-a838-0126d95c823c" shared="true" type="device">
+<property isimportant="false" name="name">Abstract N2 1</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=af0b158c-b9bc-419d-9967-9389e022be1c</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">f519e596-c4d3-4e7e-b2f6-d7b30f570f18</property>
+<property isimportant="false" name="hostResource_topologyResourceId">iaa8f67c7-b5ea-4be3-b9c1-24641c601094</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template N2 - SCM1]</extensions>
+<boundary height="100" width="100" x="19.999999999999886" y="275"/>
+<resource guid="edca4f31-52a9-427a-92a2-19b88223a456" id="i3ca1919b-3f04-45d6-93a8-2a17b4258661" type="port">
+<property isimportant="false" name="name">Abstract Port - 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template Port - SCM1]</extensions>
+<property name="inventoryName"/>
+</resource>
+<resource guid="9f39b5fb-662a-4c45-b7bb-06fec34d69d9" id="i08ba61ec-159d-47f1-943c-abcbf72d8679" type="port">
+<property isimportant="false" name="name">Abstract Port - 2</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template Port - SCM1]</extensions>
+<property name="inventoryName"/>
+</resource>
+<property name="inventoryName"/>
+</resource>
+<resource guid="7844fd89-1aa5-411a-a33a-d907d4b6128d" id="i91476a1e-1793-438c-aac0-83c515fadc62" shared="true" type="device">
+<property isimportant="false" name="name">Abstract N2 2</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=7844fd89-1aa5-411a-a33a-d907d4b6128d</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">f519e596-c4d3-4e7e-b2f6-d7b30f570f18</property>
+<property isimportant="false" name="hostResource_topologyResourceId">iaa8f67c7-b5ea-4be3-b9c1-24641c601094</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template N2 - SCM1]</extensions>
+<boundary height="100" width="100" x="139.9999999999999" y="275"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="e2e17c60-f8c8-44fc-9e3b-c277baebd7e1" id="i0771523e-734d-4bd6-9ca1-effff1e2c984" shared="true" type="device">
+<property isimportant="false" name="name">Abstract N1 2</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=e2e17c60-f8c8-44fc-9e3b-c277baebd7e1</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">f519e596-c4d3-4e7e-b2f6-d7b30f570f18</property>
+<property isimportant="false" name="hostResource_topologyResourceId">i91186403-f26f-47cc-b952-526bdc1e60f4</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template N1 - SCM1]</extensions>
+<boundary height="100" width="100" x="259.9999999999999" y="155"/>
+<property name="inventoryName"/>
+</resource>
+</resource>
+<resource guid="e2b7747a-4ed8-4606-8638-10075e2bb470" id="ib086fdd6-8c31-42cc-a125-6f70e8cf8405" shared="true" type="device">
+<property isimportant="false" name="name">Orchestrated Child - SCM1</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=e2b7747a-4ed8-4606-8638-10075e2bb470</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">927c13b4-d327-4c88-be3d-574a1b906864</property>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="templateId">5999ab91-2362-4aca-b112-563747d5c50a</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<boundary height="100" width="100" x="412" y="144"/>
+</resource>
+<resource guid="1237099f-fca7-4c42-a702-d8276b9615fc" id="ifcae7a9d-0737-4142-926e-ae388f0b6430" shared="true" type="device">
+<property isimportant="false" name="name">Abstract Child - SCM1</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=1237099f-fca7-4c42-a702-d8276b9615fc</property>
+<property isimportant="false" name="reservationTime">DEFERRED</property>
+<property isimportant="false" name="ilo_iconId">ccde2ecf-1a5d-427a-a945-9db660dd633b</property>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template Child - SCM1]</extensions>
+<boundary height="100" width="100" x="1007" y="144"/>
+<resource guid="i9dfb439e-9c6e-43de-9a00-49835314aa8c" id="i9dfb439e-9c6e-43de-9a00-49835314aa8c" type="port">
+<property isimportant="false" name="name">Port 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">connected</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">any</extensions>
+<property name="inventoryName"/>
+</resource>
+<property name="inventoryName"/>
+</resource>
+</resources>
+<connectivity>
+<link id="id910d1b0-ef11-41a3-808e-dfbbc62fbb00">
+<property isimportant="false" name="name">Link</property>
+<property isimportant="false" name="type">Ethernet</property>
+<property isimportant="false" name="abstractResourceId">7d745269-35cb-492a-a395-9b56b4195847</property>
+<property isimportant="false" name="abstractResourceName">Abstract Link</property>
+<endpoint direction="bidirectional" id="ief6ad9a5-25a4-4f4e-9255-df4c6a800ae6"/>
+<endpoint direction="bidirectional" id="i9dfb439e-9c6e-43de-9a00-49835314aa8c"/>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">withEdges sum(port[Integer]) &gt; 0</extensions>
+<propertyCollection name="connectionType" order="0">
+<property isimportant="false" name="id">54f1a2f2-333b-381a-83fd-43df21dd2069</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="kind">L1</property>
+<property isimportant="false" name="shortcut">Eth</property>
+</propertyCollection>
+</link>
+</connectivity>
+</body>
+</tbml>
