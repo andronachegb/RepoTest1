@@ -2,53 +2,42 @@
 <inventory format-version="1.0">
 	<templates>
 		<template>
-			<id>a166d969-0d3b-477d-83ae-d3deec21c7e6</id>
-			<revisionId>a166d969-0d3b-477d-83ae-d3deec21c7e6</revisionId>
-			<name>Template T1 - SCM1</name>
-			<description>Description - SCM1</description>
+			<id>8e897814-3141-480a-80c4-460757e4da91</id>
+			<revisionId>8e897814-3141-480a-80c4-460757e4da91</revisionId>
+			<name>T1-SCM1</name>
+			<description></description>
 			<isTemplate>true</isTemplate>
-			<driverId>9b86c385-49ea-44aa-9225-729cf7a3f230</driverId>
 			<type>DEVICE</type>
-			<interfaceType>ORCHESTRATION</interfaceType>
+			<interfaceType>NONE</interfaceType>
 			<utilizationType>SHARED</utilizationType>
 			<reservationTime>IMMEDIATE</reservationTime>
 			<isCustomReservationTime>false</isCustomReservationTime>
+			<icon/>
+			<defaultImageAttach/>
+			<defaultConfigAttach/>
 			<nestedTemplates>
 				<nestedTemplate>
-					<id>a2f7fa26-75b2-4401-99a7-e98a41bea9ee</id>
+					<id>98116c05-f8ff-4883-8d77-8db2767b9417</id>
 				</nestedTemplate>
 			</nestedTemplates>
 		</template>
 		<template>
-			<id>a2f7fa26-75b2-4401-99a7-e98a41bea9ee</id>
-			<revisionId>a2f7fa26-75b2-4401-99a7-e98a41bea9ee</revisionId>
-			<name>Template T1 Nested L1 - SCM1</name>
-			<description>Description - SCM1</description>
+			<id>98116c05-f8ff-4883-8d77-8db2767b9417</id>
+			<revisionId>98116c05-f8ff-4883-8d77-8db2767b9417</revisionId>
+			<name>T2-SCM1</name>
+			<description></description>
 			<isTemplate>true</isTemplate>
-			<driverId>9b86c385-49ea-44aa-9225-729cf7a3f230</driverId>
 			<type>DEVICE</type>
-			<interfaceType>ORCHESTRATION</interfaceType>
+			<interfaceType>NONE</interfaceType>
 			<utilizationType>SHARED</utilizationType>
 			<reservationTime>IMMEDIATE</reservationTime>
 			<isCustomReservationTime>false</isCustomReservationTime>
-						<nestedTemplates>
-				<nestedTemplate>
-					<id>b2f7fa26-75b2-4401-99a7-e98a41bea9ee</id>
-				</nestedTemplate>
-			</nestedTemplates>
-		</template>
-		<template>
-			<id>b2f7fa26-75b2-4401-99a7-e98a41bea9ee</id>
-			<revisionId>b2f7fa26-75b2-4401-99a7-e98a41bea9ee</revisionId>
-			<name>Template T1 Nested L2 - SCM1</name>
-			<description>Description - SCM1</description>
-			<isTemplate>true</isTemplate>
-			<driverId>9b86c385-49ea-44aa-9225-729cf7a3f230</driverId>
-			<type>DEVICE</type>
-			<interfaceType>ORCHESTRATION</interfaceType>
-			<utilizationType>SHARED</utilizationType>
-			<reservationTime>IMMEDIATE</reservationTime>
-			<isCustomReservationTime>false</isCustomReservationTime>
+			<icon/>
+			<defaultImageAttach/>
+			<defaultConfigAttach/>
 		</template>
 	</templates>
+	<orchestratedResources/>
+	<abstractResources/>
+	<topologies/>
 </inventory>
