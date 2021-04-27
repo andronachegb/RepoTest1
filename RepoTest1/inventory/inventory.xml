@@ -31,6 +31,11 @@
 			<utilizationType>SHARED</utilizationType>
 			<reservationTime>IMMEDIATE</reservationTime>
 			<isCustomReservationTime>false</isCustomReservationTime>
+						<nestedTemplates>
+				<nestedTemplate>
+					<id>b2f7fa26-75b2-4401-99a7-e98a41bea9ee</id>
+				</nestedTemplate>
+			</nestedTemplates>
 		</template>
 		<template>
 			<id>b2f7fa26-75b2-4401-99a7-e98a41bea9ee</id>
