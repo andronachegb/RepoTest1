@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Demo Export</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="89563a97-f995-4990-9460-bcea33544c22" id="if80f4631-8da1-40cd-8ec4-779c8e0cb687" shared="true" type="device">
+<property isimportant="false" name="name">Astract A</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=89563a97-f995-4990-9460-bcea33544c22</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template A]</extensions>
+<boundary height="100" width="100" x="665.7637408437713" y="91.83333333333331"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="e010305f-4784-46c4-96dd-4152168a55c7" id="i5f3c9cea-bb13-4573-a1a8-7c16675e0f26" shared="true" type="device">
+<property isimportant="false" name="name">Template A</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=e010305f-4784-46c4-96dd-4152168a55c7</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template A]</extensions>
+<boundary height="100" width="100" x="515.0970741771047" y="93.16666666666666"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="641c5d40-5b9f-4dd7-b216-4a7317e3470f" id="i82917776-5a9b-4d37-896d-a8af0c5410e3" shared="true" type="device">
+<property isimportant="false" name="name">Orhestrated A</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=641c5d40-5b9f-4dd7-b216-4a7317e3470f</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="templateId">e010305f-4784-46c4-96dd-4152168a55c7</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<boundary height="100" width="100" x="816.430407510438" y="91.83333333333331"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
