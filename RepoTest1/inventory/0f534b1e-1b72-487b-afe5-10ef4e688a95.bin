@@ -53,19 +53,18 @@
 <boundary height="100" width="100" x="665.1941483542093" y="134"/>
 <property name="inventoryName"/>
 </resource>
-<resource guid="c84f6202-6a67-410a-8281-080ebea0ee7e" id="i0f9c759f-2494-4301-8b8e-f5f92b94ca58" shared="true" type="device">
-<property isimportant="false" name="name">Orchestrated A</property>
+<resource guid="fd384db9-a994-49ec-919f-eec865b76777" id="i69b7ac73-c807-44f7-83be-043fd8b07911" shared="true" type="device">
+<property isimportant="false" name="name">Template B - SCM1</property>
 <property isimportant="false" name="description"/>
-<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=c84f6202-6a67-410a-8281-080ebea0ee7e</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=fd384db9-a994-49ec-919f-eec865b76777</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
 <property isimportant="false" name="ilo_iconId"/>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
-<property isimportant="false" name="templateId">e010305f-4784-46c4-96dd-4152168a55c7</property>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
-<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
-<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template A - SCM1]</extensions>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Template B - SCM1]</extensions>
 <boundary height="100" width="100" x="665.1941483542093" y="254"/>
+<property name="inventoryName"/>
 </resource>
 </resources>
 <connectivity/>
