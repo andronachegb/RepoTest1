@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>ExportTopology</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="b39a6b07-9216-4d43-a8f1-bd08b96d49a1" id="ifc8e40aa-bedf-4426-8c9d-9a68898b6d2b" shared="true" type="device">
+<property isimportant="false" name="name">PC</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=b39a6b07-9216-4d43-a8f1-bd08b96d49a1</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC]</extensions>
+<boundary height="100" width="100" x="634" y="168"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="b39a6b07-9216-4d43-a8f1-bd08b96d49a1" id="i5f8fcb5b-76da-421c-a451-e9cba70eb196" shared="true" type="device">
+<property isimportant="false" name="name">PC (2)</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=b39a6b07-9216-4d43-a8f1-bd08b96d49a1</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC]</extensions>
+<boundary height="100" width="100" x="783" y="116"/>
+<property name="inventoryName"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
