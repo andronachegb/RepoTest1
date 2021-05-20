@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SessionTemplate version="8.5.0.202104211757">
+    <baseApplication>com.fnfr.svt.applications.wireshark</baseApplication>
+    <sessionProperties type="com.fnfr.svt.applications.wireshark.WiresharkSessionProperties">
+        <sessionbuilderInitializeAction type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+    </sessionProperties>
+    <responseLibrary inherit="false">project://print_content/</responseLibrary>
+    <formMapLibrary inherit="false">project://print_content/</formMapLibrary>
+    <language>Python</language>
+</SessionTemplate>
