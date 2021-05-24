@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
 iTest-Manifest-Version: 1.0
-iTest-Dependent-Project: "RepoTest2","dependencies_project"
+iTest-Dependent-Project: "RepoTest2"
 
