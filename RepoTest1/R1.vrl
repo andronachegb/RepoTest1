@@ -10,44 +10,12 @@
     "parameters": [],
     "requirements": [],
     "reservationId": null,
-    "topologyId": "f3fda8ff-d3b5-4369-ac22-f6ab2493df2a",
+    "topologyId": "f5ece2e2-0542-46ed-8547-59d53e63495a",
     "topologyPath": null,
     "topologyVersionId": null
   },
   "main": {
     "items": [
-      {
-        "customParameterTypes": [],
-        "files": [],
-        "ignoredRequirements": [],
-        "itemId": null,
-        "parameterFilePath": null,
-        "parameters": [],
-        "path": "main/print_content/test_cases/steps.fftc",
-        "requirements": [],
-        "reservationId": null,
-        "testbed": null,
-        "topologyName": null,
-        "topologyId": null,
-        "topologyVersionId": null,
-        "type": "SCRIPT"
-      },
-      {
-        "customParameterTypes": [],
-        "files": [],
-        "ignoredRequirements": [],
-        "itemId": null,
-        "parameterFilePath": null,
-        "parameters": [],
-        "path": "main/print_content/test_cases/wireshark_testcase.fftc",
-        "requirements": [],
-        "reservationId": null,
-        "testbed": null,
-        "topologyName": null,
-        "topologyId": null,
-        "topologyVersionId": null,
-        "type": "SCRIPT"
-      },
       {
         "customParameterTypes": [],
         "files": [],
