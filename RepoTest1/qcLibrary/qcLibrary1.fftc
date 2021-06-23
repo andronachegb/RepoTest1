@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testCase version="8.5.1.202105291511">
+    <general>
+        <tags>tagQC</tags>
+        <sessionClass includeTestCase="true" sessionType="project://RepoTest1/session_profiles/SSH.ffsp"/>
+        <language>Python</language>
+    </general>
+    <procedures>
+        <item name="main"/>
+        <item name="returnUrl" isPublic="true">
+            <steps>
+                <item guid="f70c299e-c7c7-476e-98b3-c8d436cdca76" action="return">
+                    <command>
+                        <body>[param(&apos;url&apos;)]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+            </steps>
+        </item>
+    </procedures>
+</testCase>

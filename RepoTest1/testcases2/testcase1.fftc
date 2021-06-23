@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <testCase version="8.5.1.202105291511">
     <general>
+        <tags>tag1</tags>
         <language>Python</language>
     </general>
     <requirements>
@@ -9,9 +10,9 @@
     <procedures>
         <item name="main">
             <steps>
-                <item guid="6783db25-8ce9-407d-a043-b910ad9e27c3" action="open" session="s1" skip="true">
+                <item guid="6783db25-8ce9-407d-a043-b910ad9e27c3" action="open" session="s1">
                     <command>
-                        <body>project://tagsTesting2/session_profiles/SSH.ffsp</body>
+                        <body>project://RepoTest1/session_profiles/SSH.ffsp</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
                         <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
@@ -20,13 +21,13 @@
                         <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     </applicationProperties>
                 </item>
-                <item guid="5b77ce65-6538-4b8e-83e5-9a13d6c0120f" action="eval" skip="true" useFieldsInCommand="false">
+                <item guid="5b77ce65-6538-4b8e-83e5-9a13d6c0120f" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>url = param(&apos;url&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="f5707864-63b0-47b3-a77e-70f2cfc27ffd" action="returnUrl" session="s1" skip="true" useFieldsInCommand="false">
+                <item guid="f5707864-63b0-47b3-a77e-70f2cfc27ffd" action="returnUrl" session="s1" useFieldsInCommand="false">
                     <postProcessing>
                         <analysisRules>
                             <item>
@@ -64,29 +65,6 @@
                         </analysisRules>
                     </postProcessing>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="88c269ab-e7ae-4d60-9e34-3317c98bcea8" action="readFile" useFieldsInCommand="false">
-                    <command>
-                        <body>new%205.txt</body>
-                    </command>
-                    <postProcessing>
-                        <analysisRules>
-                            <item>
-                                <extractorInfo extractorType="query">
-                                    <extractorProperties type="com.fnfr.svt.mapping.execution.extractors.QueryDataExtractorPropertyGroup">
-                                        <query>Firmware_Version()</query>
-                                    </extractorProperties>
-                                </extractorInfo>
-                                <processorInfo ruleType="message">
-                                    <ruleProperties type="com.fnfr.svt.execution.builtin.processors.MessageProcessorPropertyGroup" severity="Information">
-                                        <message>{auto_message}</message>
-                                        <tag sub="false" defaultValue=""/>
-                                    </ruleProperties>
-                                </processorInfo>
-                            </item>
-                        </analysisRules>
-                    </postProcessing>
-                    <applicationProperties type="com.fnfr.svt.execution.builtin.exec.ReadFilePropertyGroup"/>
                 </item>
             </steps>
         </item>

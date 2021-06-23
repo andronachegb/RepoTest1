@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <testCase version="8.5.1.202105291511">
     <general>
+        <tags>tag2</tags>
         <language>Python</language>
     </general>
     <requirements>
@@ -11,7 +12,7 @@
             <steps>
                 <item guid="6783db25-8ce9-407d-a043-b910ad9e27c3" action="open" session="s1">
                     <command>
-                        <body>project://tagsTesting2/session_profiles/SSH.ffsp</body>
+                        <body>project://RepoTest1/session_profiles/SSH.ffsp</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
                         <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
