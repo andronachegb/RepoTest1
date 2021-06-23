@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ParameterTree version="8.5.1.202105291511">
+    <parameters escape="true">
+        <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+            <url pt:description="URL for the REST session">127.0.0.1</url>
+        </parameters>
+    </parameters>
+    <tags>tag22</tags>
+</ParameterTree>
