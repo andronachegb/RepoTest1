@@ -1,3 +1,0 @@
-Current operating configuration:
- Firmware Version: v4.6 mcc 04
- System Uptime: 0 years, 31 days, 22:02:18
