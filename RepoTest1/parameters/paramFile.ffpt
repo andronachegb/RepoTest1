@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<ParameterTree version="8.5.0.202104211757">
-    <parameters escape="true">
-        <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
-            <host>127.0.0.1</host>
-        </parameters>
-    </parameters>
-</ParameterTree>
