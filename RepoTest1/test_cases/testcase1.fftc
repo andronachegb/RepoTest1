@@ -3,7 +3,7 @@
     <general>
         <language>Python</language>
     </general>
-    <testbed>project://RepoTest5/topologies/top1.tbml</testbed>
+    <testbed>project://RepoTest6/topologies/top1.tbml</testbed>
     <procedures>
         <item name="main">
             <steps>
@@ -188,9 +188,9 @@
                             </command>
                             <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                         </item>
-                        <item guid="8882e7a9-d514-4d70-924c-b4aea5887820" action="open" session="s1">
+                        <item guid="8882e7a9-d514-4d70-924c-b4aea5887820" action="open" session="s3" useFieldsInCommand="false">
                             <command>
-                                <body>project://RepoTest5/session_profiles/REST.ffsp</body>
+                                <body>project://RepoTest6/session_profiles/REST.ffsp</body>
                             </command>
                             <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
                                 <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
@@ -199,7 +199,7 @@
                                 <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                             </applicationProperties>
                         </item>
-                        <item guid="e1e56dee-aa57-4876-baac-a6da611709ff" action="proc1" session="s1" useFieldsInCommand="false">
+                        <item guid="e1e56dee-aa57-4876-baac-a6da611709ff" action="proc1" session="s3" useFieldsInCommand="false">
                             <command>
                                 <body>-argm [test]</body>
                             </command>
@@ -254,9 +254,9 @@
                             </postProcessing>
                             <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                         </item>
-                        <item guid="57ab5d6a-19c1-4ac6-877b-bcd4b4ee38e8" action="open" session="s2" useFieldsInCommand="false">
+                        <item guid="57ab5d6a-19c1-4ac6-877b-bcd4b4ee38e8" action="open" session="s4" useFieldsInCommand="false">
                             <command>
-                                <body>project://RepoTest5/session_profiles/REST.ffsp</body>
+                                <body>project://RepoTest6/session_profiles/REST.ffsp</body>
                             </command>
                             <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
                                 <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
@@ -265,7 +265,7 @@
                                 <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                             </applicationProperties>
                         </item>
-                        <item guid="dfe8f0bd-e506-40ad-a8a8-67ecfb7d20fe" action="proc1" session="s2" useFieldsInCommand="false">
+                        <item guid="dfe8f0bd-e506-40ad-a8a8-67ecfb7d20fe" action="proc1" session="s4" useFieldsInCommand="false">
                             <command>
                                 <body>-argm [test]</body>
                             </command>
@@ -352,9 +352,9 @@
                             </command>
                             <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                         </item>
-                        <item guid="01abacf3-3292-4d82-b267-79f9a2fc48f7" action="open" session="s1">
+                        <item guid="01abacf3-3292-4d82-b267-79f9a2fc48f7" action="open" session="s5" useFieldsInCommand="false">
                             <command>
-                                <body>project://RepoTest5/session_profiles/REST.ffsp</body>
+                                <body>project://RepoTest7/session_profiles/REST.ffsp</body>
                             </command>
                             <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
                                 <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
@@ -363,7 +363,7 @@
                                 <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                             </applicationProperties>
                         </item>
-                        <item guid="d8d06c39-572d-4256-ab4b-975a12913354" action="proc1" session="s1" useFieldsInCommand="false">
+                        <item guid="d8d06c39-572d-4256-ab4b-975a12913354" action="proc1" session="s5" useFieldsInCommand="false">
                             <command>
                                 <body>-argm [test]</body>
                             </command>
@@ -418,9 +418,9 @@
                             </postProcessing>
                             <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                         </item>
-                        <item guid="d15daf24-3451-4393-9740-1aec517ad536" action="open" session="s2" useFieldsInCommand="false">
+                        <item guid="d15daf24-3451-4393-9740-1aec517ad536" action="open" session="s6" useFieldsInCommand="false">
                             <command>
-                                <body>project://RepoTest5/session_profiles/REST.ffsp</body>
+                                <body>project://RepoTest7/session_profiles/REST.ffsp</body>
                             </command>
                             <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
                                 <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
@@ -429,7 +429,7 @@
                                 <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                             </applicationProperties>
                         </item>
-                        <item guid="7d4063d3-9f21-4a12-8af2-4e62e4371fde" action="proc1" session="s2" useFieldsInCommand="false">
+                        <item guid="7d4063d3-9f21-4a12-8af2-4e62e4371fde" action="proc1" session="s6" useFieldsInCommand="false">
                             <command>
                                 <body>-argm [test]</body>
                             </command>
