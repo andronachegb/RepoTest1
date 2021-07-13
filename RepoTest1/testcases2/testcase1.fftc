@@ -4,6 +4,15 @@
         <tags>tag1</tags>
         <language>Python</language>
     </general>
+    <execution>
+        <parameters version="8.6.0.202107090704">
+            <parameters escape="true">
+                <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+                    <url>vel-alin86s.spirenteng.com</url>
+                </parameters>
+            </parameters>
+        </parameters>
+    </execution>
     <requirements>
         <requirement key="pool">driver</requirement>
     </requirements>
@@ -64,6 +73,29 @@
                             </item>
                         </analysisRules>
                     </postProcessing>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="b860ecfc-dc4d-43fa-8ade-008b2fba8b90" action="open" session="rest">
+                    <command>
+                        <body>project://RepoTest2/dependentFiles/REST.ffsp</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
+                        <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        <sessionProperties type="com.fnfr.svt.adapter.automation.tools.common.documents.TransferableDocumentObject" transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.restful.RESTfulSessionProperties"/>
+                        <sessionClass type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    </applicationProperties>
+                </item>
+                <item guid="cc5dfa1a-c578-420a-808b-1c6c356cfdc5" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>host = param(&apos;velocityServer&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="5552a440-13b2-4126-b3fc-772dcb2b7843" action="checkHost1" session="rest" useFieldsInCommand="false">
+                    <command>
+                        <body>-host [host]</body>
+                    </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
             </steps>
