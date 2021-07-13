@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<TestCaseCatalog version="8.5.1.202105291511">
+<TestCaseCatalog version="8.6.0.202107090704">
     <testCaseCatalog>
         <item name="qcLibrary/qcLibrary1.fftc">
-            <tcDescriptor version="8.5.1.202105291511">
+            <tcDescriptor version="8.6.0.202107090704">
                 <general>
                     <tags>tagQC</tags>
                     <sessionClass includeTestCase="true" sessionType="project://RepoTest1/session_profiles/SSH.ffsp"/>
