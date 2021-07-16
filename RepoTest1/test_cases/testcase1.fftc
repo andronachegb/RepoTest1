@@ -52,19 +52,19 @@
                 </item>
                 <item guid="87068bc4-ca17-4825-b4d0-83b3862bb9d9" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(velocity(&apos;reservationId&apos;))</body>
+                        <body>print(param(&apos;reservationId&apos;))</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="7eb05ea1-2ee4-4f5a-b758-908e57369a92" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(velocity(&apos;topologyResourceId&apos;))</body>
+                        <body>print(param(&apos;topologyResourceId&apos;))</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="b0efc1d1-52cc-43ed-95b5-5c151e1077fb" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(velocity(&apos;topologyResourceId&apos;))</body>
+                        <body>print(param(&apos;tbml/body/resources&apos;))</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
